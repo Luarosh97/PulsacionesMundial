@@ -1,0 +1,113 @@
+*{
+margin:0 ;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+body{
+    background-image: url('imagenUltra.jpg');
+
+}
+
+
+.formulario-registro{
+    width: 700px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+    box-shadow: 7px 14px 38px #111111;
+
+
+}
+.formulario-registro h4{
+
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.Controles{
+    width: 100%;
+    background:#24303c ;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 17px;
+    border: 1px solid #111111;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color:white;
+
+}
+
+.formulario-registro p{
+
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+
+}
+.formulario-registro a{
+    color: yellow;
+    text-decoration: none;
+    
+}
+.formulario-registro a:hover{
+    color: yellow;
+    text-decoration: underline;
+    
+}
+.botones{
+width: 100%;
+background: lime;
+border: none;
+padding: 14px;
+color:white;
+margin: 17px 0;
+font-size: 17px;
+
+}
+
+#main-container{
+    margin: 170px auto;
+    width: 700px
+    ;
+}
+
+table{
+    background-color: white;
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+
+}
+th,td{
+
+    border: solid 1px black;
+    padding: 20px;
+    
+}
+thead{
+    background-color:forestgreen;
+    border-bottom: solid 7px #0f362d ;
+    color: white;
+
+}
+
+tr:nth-child(even){
+  background-color: #ddd;
+
+}
+tr:hover td{
+    background-color: #369681;
+    color: white;
+}
+footer {
+	background-color:#1A1A1A;
+    color: white;
+    width: 100%; height: 100%;
+    padding-top: 1.5%;
+}
